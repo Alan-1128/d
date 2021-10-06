@@ -63,7 +63,7 @@ header {
     }
 }
 /* -----------------------------------------------------------------------Imagen */
-#inicio{
+.inicio{
     width: 100%;
     background: url(video.gif);
     background-position:center;
