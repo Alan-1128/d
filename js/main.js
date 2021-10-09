@@ -129,7 +129,8 @@ const html4 = () => {
                 <li class="nuevo txt" >JavaScript</li>
                 </ul>
         <br>
-                <p class="form__input">Demo: <a target="blank" href="https://sad-curran-0ce859.netlify.app/#promos">Haga clic aquí</a></p>
+        
+                <p class="form__input">Demo: <a target="blank" href="https://sad-curran-0ce859.netlify.app/">Haga clic aquí</a></p>
                 <p class="form__input">Código en GitHub: <a target="blank" href="https://github.com/Alan-1128/Pagina-Web-Turismo">Haga clic aquí</a></p>
             </form>
             <div class="form-img">
