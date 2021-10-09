@@ -1,42 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="css/estilos.css">
 	<title>Portafolio</title>
 </head>
 <body>
 
-	<header>
-        <div class="container">
+	<header class="view1">
+    <div class="nav">
+      <div class="nav__cont">
+        <img class="nav__cont-logo" src="img/logo.png" alt="logo">
+      </div>
+    </div>
 
-                <a href="#inicio" class="text"> Portafolio </a>
-                <img class="lgo" src="logo.png" alt="logo">
-                <a href="Alfredo-Castillo-CV.pdf" class="text" download >CV</a>
-        </div>
-    </header>
-    
+    <div class="cont">
+      <div class="cont__linea1"></div>
+		  <h1 class="palabra__texto">Hola Soy <span class="typed"></span> </h1>
+      <div class="cont__linea2"></div>
+	  </div>
 
-    <section class="inicio">
-		<div class="fondoNegro">
-			<div>
-				<h2>¡¡Portafolio en Proceso!!</h2>
+    <div class="btnC">
+      <div class="btnCortina cursor desc">Presiona aqui</div>
+      <p class="logosC_I">Tecnologias que domino</p>
+    </div>
+
+    <div class="logosC">
+      <div class="logosC_I">
+          <img class="imgL" src="img/html-5.png" alt="html5">
+          <p>HTML5</p>
+      </div>
+      <div class="logosC_I">
+          <img class="imgL" src="img/css3.png" alt="css3">
+          <p>CSS3</p>
+      </div>
+      <div class="logosC_I">
+          <img class="imgL" src="img/javascript.png" alt="javascript">
+          <p>JavaScript</p>
+      </div>
+      <div class="logosC_I">
+          <img class="imgL" src="img/git.png" alt="git">
+          <p>Git</p>
+      </div>
+      <div class="logosC_I">
+          <img class="imgL" src="img/github.png" alt="github">
+          <p>GitHub</p>
+      </div>
+      <div class="logosC_I">
+          <img class="imgL" src="img/PS.png" alt="photoshop">
+          <p>Photoshop</p>
+      </div>
+      <div class="logosC_I">
+          <img class="imgL" src="img/IA.png" alt="Illustrator">
+          <p>Illustrator</p>
+      </div>
+      <div class="logosC_I">
+          <img class="imgL" src="img/react-native.png" alt="react.js">
+          <p>ReactJS</p>
+          <p>(Aprendiendo)</p>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="viewport2">
+		<div class="nav">
+			<div class="nav__cont">
+			  <img class="nav__cont-logo" src="img/logo.png" alt="logo">
 			</div>
 		</div>
-	</section>
-	
-	<div id="inicio" class="contenedor">
+
 		<div class="head">
-			<div class="logo">
-				<h1>Alfredo Castillo</h1>
-				<p>Click en proyecto</p>
-			</div>
-			
 			<div class="categorias" id="categorias">
-				<!-- <a href="#" class="activo">Todos</a> -->
 				<a href="#" class="p1">Proyecto 1</a>
 				<a href="#" class="p2">Proyecto 2</a>
 				<a href="#" class="p3">Proyecto 3</a>
@@ -45,43 +83,24 @@
 		</div>
 
 		<section class="ficha containerCarta" >
-		
-			<!-- <div class="flex-container containerCarta">
-				<form class="form">
-					<p class="form__input parrafo">APP DEL CLIMA</p>
-					<p class="form__input txt">Aplicación con el consumo de una API, se puede utilizar para buscar 
-					  el clima y temperaturas de los paises y ciudades del mundo.</p>
-		  
-					<ul>
-					  <li class="li txt none" >API: Open Weather Map</li>
-					  <li class="li txt none" >Funciona con:</li>
-					  <li class="nuevo txt" >HTML</li>
-					  <li class="nuevo txt" >CSS con Flexbox, y Responsive Design.</li>
-					  <li class="nuevo txt" >JavaScript</li>
-					</ul>
-		  <br>
-					<p class="form__input">Demo: <a target="blank" href="https://github.com/Alan-1128/App-Clima">Haga clic aquí</a></p>
-					<p class="form__input">Código en GitHub: <a target="blank" href="https://github.com/Alan-1128/App-Clima">Haga clic aquí</a></p>
-				</form>
-				
-				<div class="form-img">
-				  <img src="clima.png" alt="proyecto">
-				</div>
-			  </div> -->
-
+	
 		</section>
 
 
-		<footer class="contenedor">
+		<footer>
 			<div class="creado-por">
 				<p>Telefono: 477-654-3555</p>
 			</div>
 		</footer>
 	</div>
+    
+
+  
 
 
-	<script src="main.js"></script>
-	<!-- <script src="nuevo.js"></script> -->
-	
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/nuevo.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 </html>
