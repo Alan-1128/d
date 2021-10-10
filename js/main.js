@@ -89,7 +89,8 @@ const html3 = () => {
         <div class="flex-container">
             <form class="form">
                 <p class="form__input parrafo">ECOMMERCE</p>
-                <p class="form__input txt">Maquetación de una plantilla de pagina</p>
+                <p class="form__input txt red">Unicamente realize la maquetación de una</p>
+                <p class="form__input txt red">plantilla de pagina ya hecha</p>
                 <ul class="ul">
                 <li class="li txt none " >Libreria: Particles.js</li>
                 <li class="li txt none" >Funciona con:</li>
