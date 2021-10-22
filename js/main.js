@@ -66,7 +66,7 @@ const html2 = () => {
                 <li class="nuevo txt" >JavaScript</li>
                 </ul>
         <br>
-                <p class="form__input"  >Demo: <a target="blank" href="https://alan-1128.github.io/App-Pokemon/">Haga clic aquí</a></p>
+                <p class="form__input"  >Demo: <a target="blank" href="https://cocky-stonebraker-3d9807.netlify.app/">Haga clic aquí</a></p>
                 <p class="form__input" >Código en GitHub: <a target="blank" href="https://github.com/Alan-1128/App-Pokemon">Haga clic aquí</a></p>
 
             </form>
