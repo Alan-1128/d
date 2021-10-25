@@ -21,19 +21,18 @@ const html1 = () => {
     const html = `
             <div class="flex-container containerCarta">
             <form class="form">
-                <p class="form__input parrafo">APP DEL CLIMA</p>
-                <p class="form__input txt">Aplicación con el consumo de una API</p>
+                <p class="form__input parrafo">APP DE NETFLIX</p>
+                <p class="form__input txt red">Aplicación que esta en proceso...</p>
 
                 <ul class="ul">
-                <li class="li txt none" >API: Open Weather Map</li>
-                <li class="li txt none" >Funciona con:</li>
-                <li class="nuevo txt" >HTML</li>
-                <li class="nuevo txt" >CSS con Flexbox, y Responsive Design.</li>
-                <li class="nuevo txt" >JavaScript</li>
+                <li class="li txt none" >Utilización de Angular</li>
+                <li class="li txt none" >Implementación de</li>
+                <li class="nuevo txt" >rutas y carga perezosa</li>
+                <li class="nuevo txt" >cuestionario reactivo</li>
+                <li class="nuevo txt" >modulos y componentes</li>
                 </ul>
         <br>
-                <p class="form__input">Demo: <a target="blank" href="https://github.com/Alan-1128/App-Clima">Haga clic aquí</a></p>
-                <p class="form__input">Código en GitHub: <a target="blank" href="https://github.com/Alan-1128/App-Clima">Haga clic aquí</a></p>
+                <p class="form__input">Demo: <a target="blank" href="https://sharp-hermann-bf9a65.netlify.app/inicio">Haga clic aquí</a></p>
             </form>
             
             <div class="form-img">
